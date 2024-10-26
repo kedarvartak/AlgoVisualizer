@@ -2,7 +2,7 @@
 
 This visualiser allows you to visualise common path finding algorithms to find the shortest path
 between a starting node and an end node. This visualiser also supports maze generation algorithms.
-You can play around with this visualiser here: https://shortestpathvisualiser.netlify.com/
+You can play around with this visualiser here: https://algo-visualizer-group10.netlify.app/
 
 ### Path Finding Algorithms
 
@@ -31,11 +31,6 @@ You can play around with this visualiser here: https://shortestpathvisualiser.ne
 
 ### Maze Generation Algorithms
 
-- **Recursive Division**: Recursive Division Algorithm is based on Fractal Nature. The Idea is to
-  start with a room and divide it into parts and then keep recursively dividing those parts until it
-  can no longer divide further.
-
-
 - **Prim's Algorithm**: Prim's Algorithm is a Minimum Spanning Tree algorithm which if randomized
   can be utilised for maze generation. It starts at a random point on the maze and then grows
   outwards. At every given point, the neighbours of every visited node that have not yet been
@@ -45,13 +40,3 @@ You can play around with this visualiser here: https://shortestpathvisualiser.ne
   Essentially, the maze extends in a random direction each iteration.
 
 
-- **Ellers's Algorithm**: Eller's Algorithm is an Algorithm that works from a row to row basis.
-  Essentially the nature of Set theory enables this algorithm to produce a complete maze. The
-  Algorithm works on one row at a time. In each iteration, if a cell in the row does not belong to a
-  set, it is assigned a set. After every cell in the row belongs to a set, based on the row size,
-  random adjacent sets are conjoined. After random sets are joined with each other (The smaller set
-  becomes part of the bigger set), at least one point from each set must extend downwards. Extending
-  to cells without a set expands the growing set. After every set is extended downwards from at
-  least one point, the iteration is complete and the process repeats.
-
-This project was created with React.
